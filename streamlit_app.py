@@ -1,11 +1,6 @@
 import streamlit as st
 
-#placeholder = st.empty()
-#placeholder.audio('timer_sound.mp3', format="audio/mpeg", autoplay=True)
-
-#if st.button("click me"):
-#   placeholder.audio('timer_sound.mp3', format="audio/mpeg", autoplay=True)
-
-st.button("click me first")
-st.text("audio should autoplay after you click the button")
+st.button("Click me!")
+st.text("Audio should autoplay after you click the button")
+st.caption("Since you need to click somewhere on the page before the browser will auto-play the audio clip")
 st.audio('timer_sound.mp3', format="audio/mpeg", autoplay=True)
